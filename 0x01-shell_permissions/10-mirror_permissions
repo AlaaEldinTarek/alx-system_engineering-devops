@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod --reference=olleh hello
+mkdir -m 751 my_dir
