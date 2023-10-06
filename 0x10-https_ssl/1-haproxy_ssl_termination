@@ -42,8 +42,8 @@ listen mahi-uha
         bind :80
         mode http
         balance roundrobin
-        server 971-web-01 35.227.5.245:80 check
-        server 971-web-02 3.236.14.41:80 check
+        server 345950-web-01 3.85.41.158:80 check
+        server 345950-web-02 100.26.159.56:80 check
 frontend www-http
         bind :80
         reqadd X-Forwarded-Proto:\ http
@@ -54,5 +54,5 @@ frontend www-https
         default_backend web-backend
 backend web-backend
         redirect scheme https if !{ ssl_fc }
-        server 971-web-01 35.227.5.245:80 check
-        server 971-web-02 3.236.14.41:80 check
+        server 345950-web-01 3.85.41.158:80 check
+        server 345950-web-02 100.26.159.56:80 check
