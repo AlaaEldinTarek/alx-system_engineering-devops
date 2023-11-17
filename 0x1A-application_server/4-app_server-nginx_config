@@ -1,4 +1,4 @@
-onfigures Nginx to serve the AirBnB_clone_v3 API.
+# Configures Nginx to serve the AirBnB_clone_v3 API.
 
 server {
     # Listen on port 80
@@ -33,3 +33,4 @@ server {
         internal;
     }
 }
+

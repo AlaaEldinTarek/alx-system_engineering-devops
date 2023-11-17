@@ -1,4 +1,4 @@
-onfigures Nginx to serve the /number_odd_or_even/ route on AirBnB_clone_v2.
+# Configures Nginx to serve the /number_odd_or_even/ route on AirBnB_clone_v2.
 
 server {
     # Listen on port 80
